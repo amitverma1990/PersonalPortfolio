@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar{
+ 
+    width: 18vw;
+    background-color: grey;
+
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 22px;
+}
+nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+   
+    width: 82vw;
+}
+
+.infoContainer{
+background-color: black;
+color: white;
+    height: 50vh;
+    width: 70vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.devImage img{
+    height: 50vh;
+}
+
+.hello{
+    font-size: 60px;
+
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+font-size: 30px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.btn button{
+    padding: 9px 14px;
+    margin: 0 3px;
+    color: white;
+    background-color: royalblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+
+    background-color: white;
+    color: royalblue;
+   
+}
